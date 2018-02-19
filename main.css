@@ -1,10 +1,10 @@
 body {
      font-family: 'Open Sans', sans-serif;
-     background-image: url(https://preview.ibb.co/eE24i7/wood.jpg) ;
+     background-image: url("https://preview.ibb.co/eE24i7/wood.jpg") ;
      background-size: cover;
 }
  .header {
-     background-image: url(https://preview.ibb.co/dzUObS/gray.jpg);
+     background-image: url("https://preview.ibb.co/eE24i7/wood.jpg");
      text-align: center;
      font-size: 36px;
 }
@@ -22,7 +22,7 @@ body {
      margin: 40px;
 }
  .tagline {
-     background-image: url(https://preview.ibb.co/dzUObS/gray.jpg);
+     background-image: url("https://preview.ibb.co/dzUObS/gray.jpg");
      margin: 80px;
      margin-top: 50px;
      margin-bottom: 60px;
@@ -42,7 +42,7 @@ body {
      margin-right: 150px;
 }
  .contact {
-     background-image: url(https://preview.ibb.co/dzUObS/gray.jpg);
+     background-image: url("https://preview.ibb.co/dzUObS/gray.jpg");
      font-size: 14px;
      margin: 80px;
      margin-top: 50px;
