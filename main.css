@@ -3,15 +3,15 @@ body {
      background-image: url(../../../../images/wood.jpg) ;
      background-size: cover;
 }
- header {
+ .header {
      background-image: url(../../../../images/gray.jpeg);
      text-align: center;
      font-size: 36px;
 }
- header h1 {
+ .header h1 {
      margin-bottom: 0px;
 }
- header h2 {
+ .header h2 {
      font-size: 32px;
      margin-top: 12px;
 }
@@ -79,10 +79,10 @@ body {
     }
 }
  @media only screen and (max-width: 680px) {
-     header {
+     .header {
          font-size: 24px;
     }
-     header h2 {
+     .header h2 {
          font-size: 20px;
     }
      .text {
@@ -109,10 +109,10 @@ body {
     }
 }
  @media only screen and (max-width: 438px) {
-     header {
+     .header {
          font-size: 18px;
     }
-     header h2 {
+     .header h2 {
          font-size: 14px;
     }
      .tagline {
@@ -129,4 +129,3 @@ body {
          font-size: 12px;
     }
 }
- 
