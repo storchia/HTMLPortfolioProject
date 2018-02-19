@@ -1,0 +1,133 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../../../../images/wood.jpg) ;
+  background-size: cover;
+
+}
+header {
+  background-image: url(../../../../images/gray.jpeg);
+  text-align: center;
+  font-size: 36px;
+
+}
+header h1 {
+  margin-bottom: 0px;
+}
+header h2 {
+  font-size: 32px;
+  margin-top: 12px;
+}
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  margin: 40px;
+}
+.tagline {
+  background-image: url(../../../../images/gray.jpeg);
+  margin: 80px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  height: 450px;
+}
+.text {
+    margin-left: 50px;
+    padding-top: 26px;
+}
+.skills {
+  float: left;
+}
+.computer {
+  float: right;
+  width: 350px;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+.contact {
+  background-image: url(../../../../images/gray.jpeg);
+  font-size: 14px;
+  margin: 80px;
+  margin-top: 50px;
+  height: 210px;
+}
+.icon {
+  width: 45px;
+}
+.icon1 {
+  width: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 1069px) {
+    .computer {
+      width: 280px;
+    }
+}
+@media only screen and (max-width: 998px) {
+    .computer {
+      width: 280px;
+      margin-right: 60px;
+    }
+}
+@media only screen and (max-width: 910px) {
+    .computer {
+      width: 200px;
+    }
+}
+@media only screen and (max-width: 828px) {
+    .computer {
+      width: 200px;
+      margin-top: -98px;
+    }
+}
+@media only screen and (max-width: 680px) {
+  header {
+    font-size: 24px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .computer {
+    width: 170px;
+    margin-top: -60px;
+  }
+}
+@media only screen and (max-width: 580px) {
+	.tagline {
+    margin: 0px;
+  }
+  .computer {
+    width: 170px;
+    float: none;
+    margin-top: 22px;
+    margin-left: 220px;
+  }
+  .contact {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 438px) {
+  header {
+    font-size: 18px;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+  .tagline {
+    height: 320px;
+  }
+  .text {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .computer {
+    display: none;
+  }
+  .contact {
+    font-size: 12px;
+  }
+}
